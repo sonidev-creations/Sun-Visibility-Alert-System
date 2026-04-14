@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Lockfile if you don't want to commit it
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE config
+.vscode/
+.idea/
+
+# Build / temp
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# Optional runtime files
+npm-debug.log
+yarn-debug.log
+.pnpm-debug.log

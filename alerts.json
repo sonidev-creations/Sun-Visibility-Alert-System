@@ -1,0 +1,23 @@
+[
+  {
+    "alertId": 1,
+    "location": "Kodaikanal",
+    "time": "2025-09-14T06:00:00Z",
+    "status": "active",
+    "message": "High solar activity detected"
+  },
+  {
+    "alertId": 2,
+    "location": "Chennai",
+    "time": "2025-09-14T07:30:00Z",
+    "status": "inactive",
+    "message": "Normal solar activity"
+  },
+  {
+    "alertId": 3,
+    "location": "Bangalore",
+    "time": "2025-09-14T08:00:00Z",
+    "status": "active",
+    "message": "Solar flare warning"
+  }
+]

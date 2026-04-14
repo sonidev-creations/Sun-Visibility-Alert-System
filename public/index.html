@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KSO SunAlert Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <header>
+      <h1>☀️ KSO SunAlert</h1>
+      <p class="subtitle">Tracking Sun Visibility & Weather Conditions</p>
+    </header>
+
+
+    <section class="card">
+      <h2>📍 Select Location</h2>
+      <div class="location-container">
+        <input 
+          type="text" 
+          id="locationInput" 
+          class="location-input" 
+          placeholder="Enter any city in India"
+        />
+        <button id="locationBtn" class="btn refresh">🔍 Track Location</button>
+      </div>
+      <p id="selectedLocation" class="location-text">Current Location: Not set</p>
+    </section>
+
+
+    <section class="card">
+      <h2>☀️ Current Sun Status</h2>
+      <p id="status" class="status-text">Checking sky conditions...</p>
+      <button id="refreshBtn" class="btn refresh">🔄 Refresh Status</button>
+    </section>
+
+ 
+    <section class="card">
+      <h2>☁️ Weather & Cloud Conditions</h2>
+      <p id="weatherDescription" class="weather-text">
+        Fetching latest weather data...
+      </p>
+      <p id="cloudInfo" class="cloud-text">
+        Cloud cover information will appear here.
+      </p>
+    
+      <p id="tempInfo">
+        Temperature details will appear here.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>📢 Alerts</h2>
+      <p>Click the button below to test your SMS alert system.</p>
+      <button id="sendSMS" class="btn sms">📩 Send Test SMS</button>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ for Kodaikanal Solar Observatory — Live Monitoring System for Sun Visibility</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
