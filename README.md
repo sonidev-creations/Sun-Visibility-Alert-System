@@ -8,14 +8,13 @@
 # ☀️ Sun Visibility Alert System  
 
 <div align="center">
-  <strong>A smart weather-based SMS alert system for sunlight visibility monitoring</strong><br><br><br>
+  <strong>A smart weather-based SMS alert system for sunlight visibility monitoring</strong><br><br>
   <img src="https://img.shields.io/badge/Node.js-v18-green?style=flat-square" alt="Node.js">
   <img src="https://img.shields.io/badge/Express.js-4.x-blue?style=flat-square" alt="Express.js">
   <img src="https://img.shields.io/badge/MongoDB-6.x-brightgreen?style=flat-square" alt="MongoDB">
   <img src="https://img.shields.io/badge/Twilio-SMS-orange?style=flat-square" alt="Twilio">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
 </div>
-
 <br>
 
 ## 📖 Overview
