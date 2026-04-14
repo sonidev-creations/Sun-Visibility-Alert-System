@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/main/ksosunalert/images/screenshot1.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/main/ksosunalert/images/screenshot2.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/main/ksosunalert/images/screenshot3.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/main/assets/images/screenshot1.png.png" width="500"/>
 </p>
 
 # ☀️ Sun Visibility Alert System  
