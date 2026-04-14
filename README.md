@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/master/ksosunalert/images/screenshot1.png.png" width="500"/>
+  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/main/ksosunalert/images/screenshot1.png.png" width="500"/>
 </p>
 
 # ☀️ Sun Visibility Alert System  
