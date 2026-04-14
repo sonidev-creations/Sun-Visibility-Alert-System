@@ -52,7 +52,7 @@
 ## 📁 Project Structure
 
 ```
-KSOsunalert/
+KSOSunAlert/
 ├── public/ 
 │ ├── index.html
 │ ├── style.css
