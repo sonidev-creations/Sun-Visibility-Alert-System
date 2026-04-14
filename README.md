@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://via.placeholder.com/700x350?text=Sun+Visibility+Alert+System" width="700"/>
+  <img src="screenshot1.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshot2.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshot3.png" width="30%" />
 </p>
 
 # ☀️ Sun Visibility Alert System  
@@ -159,29 +163,6 @@ Open [http://localhost:3000](http://localhost:3000)
 | `npm run dev` | Start with nodemon auto-reload |
 | `npm run import-alerts` | Import alert configurations |
 | `node manualAlertSMS.js` | Send manual SMS alert |
-
----
-
-## 📋 Environment Variables
-
-Create `.env` file in root directory:
-
-```env
-# OpenWeather API
-OPENWEATHER_API_KEY=your_api_key_here
-
-# MongoDB
-MONGODB_URI=mongodb://localhost:27017/sunvisibility
-
-# Twilio SMS
-TWILIO_ACCOUNT_SID=your_account_sid
-TWILIO_AUTH_TOKEN=your_auth_token
-TWILIO_PHONE_NUMBER=+1234567890
-
-# Server
-PORT=3000
-NODE_ENV=development
-```
 
 ---
 
