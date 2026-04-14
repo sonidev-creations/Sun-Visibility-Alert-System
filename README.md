@@ -1,8 +1,10 @@
 <p align="center">
   <img src="images/screenshot1.png" width="800"/><br><br>
   <img src="images/screenshot2.png" width="800"/><br><br>
-  <img src="images/screenshot3.png" width="800"/>
+  <img src="images/screenshot3.png" width="400"/>
 </p>
+<br>
+
 # ☀️ Sun Visibility Alert System  
 
 <div align="center">
