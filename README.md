@@ -1,9 +1,7 @@
 <p align="center">
-  <img src="screenshot1.png" width="30%" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshot2.png" width="30%" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshot3.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/master/assets/screenshot1.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/master/assets/screenshot2.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/sonidev-creations/Sun-Visibility-Alert-System/master/assets/screenshot3.png" width="30%" />
 </p>
 
 # ☀️ Sun Visibility Alert System  
@@ -175,40 +173,6 @@ curl http://localhost:3000/api/weather
 # Test SMS endpoint
 curl -X POST http://localhost:3000/api/sms/test
 ```
-
----
-
-## 🚀 Deployment
-
-### Recommended Platforms
-- **Render** (Free tier available)
-- **Railway**
-- **Heroku**
-- **Vercel** (Serverless)
-
-### Docker Support
-```dockerfile
-# Add Dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
----
-
-## 📈 Future Enhancements
-
-- 🌍 **Multi-location support**
-- 📱 **Mobile app** (React Native)
-- 📊 **Analytics dashboard**
-- 🔔 **Push notifications** (Firebase)
-- ☁️ **Weather forecasting**
-- 🤖 **AI-based predictions**
-
 ---
 
 ## 🐛 Troubleshooting
@@ -219,12 +183,6 @@ CMD ["npm", "start"]
 | `Weather API 401` | Verify `OPENWEATHER_API_KEY` |
 | `Twilio SMS failed` | Check Twilio credentials and phone number |
 | `Port already in use` | Change `PORT` in `.env` or kill process |
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -242,7 +200,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **⭐ Star this repository if you found it helpful!**
-
-![Footer](https://via.placeholder.com/700x50/4F46E5/FFFFFF?text=Thanks+for+checking+out+Sun+Visibility+Alert+System+%E2%9C%A8)
-
-</div>
